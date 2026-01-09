@@ -1,14 +1,14 @@
-# DocRAG Frontend
+# Intellido Frontend
 
-A modern, minimalist React frontend for the DocRAG document intelligence system.
+A modern, minimalist React frontend for the document intelligence system.
 
 ## Features
 
-- 🔐 User authentication (Login/Signup)
-- 📄 Document upload interface
-- 💬 AI-powered chat interface for querying documents
-- 🎨 Modern, minimalist design with gradient backgrounds
-- 🚀 Built with React, Vite, and Tailwind CSS
+- User authentication (Login/Signup)
+- Document upload interface
+- AI-powered chat interface for querying documents
+- Modern, minimalist design with gradient backgrounds
+- Built with React, Vite, and Tailwind CSS
 
 ## Setup
 
@@ -33,12 +33,12 @@ Make sure your backend is running on `http://localhost:8000`. The frontend is co
 ```
 frontend/
 ├── src/
-│   ├── components/      # Reusable components (Logo, DocumentUpload, ChatInterface)
-│   ├── contexts/        # React contexts (AuthContext)
-│   ├── pages/          # Page components (Login, Signup, Dashboard)
-│   ├── App.jsx         # Main app component with routing
-│   ├── main.jsx        # Entry point
-│   └── index.css       # Global styles with Tailwind
+│   ├── components/      
+│   ├── contexts/        
+│   ├── pages/          
+│   ├── App.jsx         
+│   ├── main.jsx        
+│   └── index.css       
 ├── index.html
 ├── package.json
 ├── vite.config.js
